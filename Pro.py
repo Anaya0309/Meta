@@ -1,8 +1,6 @@
 # Open Source By MANOJ GAIRE
 
 import marshal,os
-os.system('pip install httpx')
-import httpx
 os.system('git pull')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -46,7 +44,7 @@ for xd in range(10000):
         c=f' TL-tl; {str(gtt)}'
         g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
         h=random.randrange(100,114)
-        i='2'
+        i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
         l='Mobile Safari/537.36'
@@ -61,7 +59,7 @@ for agent in range(10000):
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.99'
         h=random.randrange(90,114)
-        i='2'
+        i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
         l='Mobile Safari/533.1'

@@ -202,9 +202,8 @@ def menu():
                         elif xd in ['2','02']:
                                 clear()
                                 print('[1] Pak bd afghan saudia clone\n[0] Back ')
-                                linex()
                                 xd=input('[+] Choose: ')
-                                if x in ['1','01']:
+                                if xd in ['1','01']:
                                         pak()
                         
                                 else:

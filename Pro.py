@@ -2,15 +2,18 @@
 
 import marshal,os
 os.system('pip install httpx')
+os.system('pip install --upgrade httpx')
+
 import httpx
 os.system('git pull')
+os.system('pip install beautifulsoup4')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
-import os,time,json,random,re,string,platform,base64,platform,uuid
-import requests,random,json,os,re
+import os,sys,time,json,random,re,string,platform,base64,platform,uuid
+import requests,random,sys,json,os,re
 from time import sleep
 from os import system
-import os,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,os,subprocess,uuid,requests,random,time,re,base64,json,platform
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
 import marshal
 import zlib
 import base64
@@ -23,10 +26,14 @@ from random import choice as pilih
 from random import randint
 from bs4 import BeautifulSoup
 import requests as ress
+from sys import exit as exit
 import re
+import httpcore
+os.system('pip install httpcore==1')
+import sys
 import uuid
 import json
-import requests, os, re, bs4,platform, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
 from bs4 import BeautifulSoup

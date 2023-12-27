@@ -1,6 +1,6 @@
 # Open Source By MANOJ GAIRE
 
-import marshal,os
+import,os
 os.system('pip install httpx')
 import httpx
 os.system('git pull')
@@ -11,7 +11,6 @@ import requests,random,sys,json,os,re
 from time import sleep
 from os import system
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
-import marshal
 import zlib
 import base64
 from datetime import date

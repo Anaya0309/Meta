@@ -3,7 +3,7 @@
 import marshal,os
 os.system('pip install httpx')
 import httpx
-os.system('git pull')
+os.system('pip install beautifulsoup4')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
@@ -32,6 +32,7 @@ import requests, os, re, bs4,platform, sys, json, time, random, datetime, subpro
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
 from bs4 import BeautifulSoup
+
 
 
     
@@ -202,8 +203,9 @@ def menu():
                         elif xd in ['2','02']:
                                 clear()
                                 print('[1] Pak bd afghan saudia clone\n[0] Back ')
-                                xd=input('[+] Choose: ')
-                                if xd in ['1','01']:
+                                linex()
+                                x=input('[+] Choose: ')
+                                if x in ['1','01']:
                                         pak()
                         
                                 else:

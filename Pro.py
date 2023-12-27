@@ -3,7 +3,7 @@
 import marshal,os
 os.system('pip install httpx')
 import httpx
-os.system('pip install beautifulsoup4')
+os.system('git pull')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid

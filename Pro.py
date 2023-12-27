@@ -7,6 +7,8 @@ os.system('pip install --upgrade httpx')
 import httpx
 os.system('git pull')
 os.system('pip install beautifulsoup4')
+import sys
+sys.setrecursionlimit(10000)
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid

@@ -3,6 +3,10 @@
 import marshal,os
 os.system('pip install httpx')
 import httpx
+import sys
+print(sys.path)
+import sys
+sys.setrecursionlimit(1000)
 os.system('git pull')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool

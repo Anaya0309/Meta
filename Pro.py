@@ -121,33 +121,7 @@ def uaa():
 
     return user_agent
 
-yahe ="[FBAN/FB4A;FBAV/342.1.0.14.119;FBBV/339015010[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/339015010;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1402};FB_FW/1:;]","[FBAN/FB4A;FBAV/343.0.0.8.474;FBBV/344064182[FBAN/Orca-Android;FBAV/343.0.0.8.474;FBPN/com.facebook.orca;FBLC/en_US;FBBV/344064182;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/6.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=540,height=960};FB_FW/1:;]"
 
-
-def baba():
-    app_versions = [ '196.0.0.29.99', '200.0.0.30.105', '180.0.0.24.82',
-        '210.0.0.35.120', '220.0.0.40.150', '230.0.0.45.180']  # Add more versions if needed
-    locales = ['en_US', 'th_TH', 'es_ES', 'fr_FR', 'de_DE', 'it_IT', 'ja_JP', 'ko_KR', 'ru_RU',
-        'pt_BR', 'zh_CN', 'ar_SA', 'hi_IN', 'tr_TR', 'nl_NL', 'id_ID', 'pl_PL', 'sv_SE',
-        'no_NO', 'da_DK', 'fi_FI', 'hu_HU', 'cs_CZ', 'el_GR', 'he_IL', 'vi_VN', 'ro_RO',
-        'bg_BG', 'hr_HR', 'sr_RS', 'sk_SK', 'sl_SI', 'et_EE', 'lv_LV', 'lt_LT', 'uk_UA']  # Add more locales if needed
-    carriers = ['null', 'AIS', 'Verizon', 'Vodafone']  # Add more carriers if needed
-    manufacturers = ['samsung']  # Add more manufacturers if needed
-    android_versions = ['6.0.0' , '7.0.0', '8.0.0', '9.0.0', '10.0.0']  # Add more Android versions if needed
-    cpu_architectures = ['armeabi-v7a', 'arm64-v8a']  # Add more CPU architectures if needed
-    screen_densities = ['3.0', '2.0', '4.0']  # Add more screen densities if needed
-
-    user_agent = (
-        f"FBAN/Orca-Android;FBAV/{random.choice(app_versions)};"
-        f"FBPN/com.facebook.orca;FBLC/{random.choice(locales)};"
-        f"FBBV/{random.randint(100000000, 999999999)};"
-        f"FBCR/{random.choice(carriers)};FBMF/{random.choice(manufacturers)};"
-        f"FBBD/{random.choice(manufacturers)};FBDV/{random.choice(['SM-A720F','SM-G5700', 'SM-G5510', 'SM-G5520', 'SM-G5528', 'SM-J710FN', 'SM-A826S'])};"
-        f"FBSV/{random.choice(android_versions)};FBCA/{random.choice(cpu_architectures)};"
-        f"FBDM/{{density={random.choice(screen_densities)},width=1080,height=1920}};FB_FW/1;"
-    )
-
-    return user_agent
 
 
 nid = ''.join((random.choice(['A','a','B','b','c','C','d','D','e','E','F','f','G','g','h','H','i','I','j','J','k','K','l','L','m','M','N','n','o','O','p','P','q','Q','r','R','s','S','t','T','u','U','v','V','w','W','x','X','y','Y','z','Z']) for i in range(12)))
@@ -429,7 +403,7 @@ class iAmMain:
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-				headers = {'User-Agent': baba(),
+				headers = {'User-Agent': uaa(),
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(30000, 40000)),

@@ -395,7 +395,7 @@ class iAmMain:
 "source": "register_api",
 "email": uid,
 "password": pw,
-"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+"access_token": "256002347743983|374e60f8b9bb6b8cbb30f78030438895",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "NO_FILE",
 "advertiser_id": str(uuid.uuid4()),
@@ -409,21 +409,21 @@ class iAmMain:
 				headers = {'User-Agent': baba(),
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
-'X-FB-Net-HNI': str(random.randint(30000, 40000)),
-'X-FB-SIM-HNI': str(random.randint(30000, 40000)),
+'X-FB-Net-HNI': str(random.randint(20000, 40000)),
+'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': f'{SEX}',
 'Authorization':'OAuth 256002347743983|374e60f8b9bb6b8cbb30f78030438895',
 'X-FB-Connection-Quality':f'{SEX}',
 "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
 'X-Tigon-Is-Retry': 'False',
-'x-fb-session-id': f'nid={nid};pid=Main;tid={tid};nc=1;fc=0;bc=0;cid={connection_token()}',
+'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
 'x-fb-device-group': '5120',
 'X-FB-Friendly-Name': 'ViewerReactionsMutation',
 'X-FB-Request-Analytics-Tags': 'graphservice',
 'X-FB-HTTP-Engine': 'Liger',
 'X-FB-Client-IP': 'True',
 'X-FB-Server-Cluster': 'True',
-'x-fb-connection-token': connection_token()}
+'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62'}
 				q = ses.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
 
 				if "session_key" in q:

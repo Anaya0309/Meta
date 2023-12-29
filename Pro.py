@@ -150,7 +150,6 @@ def baba():
     return user_agent
 
 
-
 nid = ''.join((random.choice(['A','a','B','b','c','C','d','D','e','E','F','f','G','g','h','H','i','I','j','J','k','K','l','L','m','M','N','n','o','O','p','P','q','Q','r','R','s','S','t','T','u','U','v','V','w','W','x','X','y','Y','z','Z']) for i in range(12)))
 tid = str(random.randint(111,999))
 class iAmMain:
@@ -213,7 +212,7 @@ class iAmMain:
 			self.password_menu(id)
 		elif m_opt =="4":
 			 method.append('iiii')
-			self.password_menu(id)
+			 self.password_menu(id)
 		else:p(" [•] Wrong Select ! ");sp(2);self.method_select(id)
 
 	def password_menu(self,id):

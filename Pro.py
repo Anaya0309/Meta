@@ -87,7 +87,7 @@ def connection_token():
 	 # convert list to string
 	 final_string = ''.join(sample_list)
 	 return final_string
-mango = f"{random.choice(['en_US', 'th_TH', 'es_ES', 'fr_FR', 'de_DE', 'it_IT', 'ja_JP', 'ko_KR', 'ru_RU',
+locales = f"{random.choice(['en_US', 'th_TH', 'es_ES', 'fr_FR', 'de_DE', 'it_IT', 'ja_JP', 'ko_KR', 'ru_RU',
         'pt_BR', 'zh_CN', 'ar_SA', 'hi_IN', 'tr_TR', 'nl_NL', 'id_ID', 'pl_PL', 'sv_SE',
         'no_NO', 'da_DK', 'fi_FI', 'hu_HU', 'cs_CZ', 'el_GR', 'he_IL', 'vi_VN', 'ro_RO',
         'bg_BG', 'hr_HR', 'sr_RS', 'sk_SK', 'sl_SI', 'et_EE', 'lv_LV', 'lt_LT', 'uk_UA'])}"

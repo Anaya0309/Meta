@@ -121,7 +121,6 @@ def uaa():
 
     return user_agent
 
-        
 yahe ="[FBAN/FB4A;FBAV/342.1.0.14.119;FBBV/339015010[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/339015010;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1402};FB_FW/1:;]","[FBAN/FB4A;FBAV/343.0.0.8.474;FBBV/344064182[FBAN/Orca-Android;FBAV/343.0.0.8.474;FBPN/com.facebook.orca;FBLC/en_US;FBBV/344064182;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/6.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=540,height=960};FB_FW/1:;]"
 
 
